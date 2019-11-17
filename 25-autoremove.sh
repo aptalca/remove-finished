@@ -28,4 +28,4 @@ if [[ $AUTOREMOVE = yes ]]; then
 fi
 
 #Autodeleting the script
-rm -rf $0
+#rm -rf $0
