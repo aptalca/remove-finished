@@ -31,4 +31,4 @@ fi
 sed -i '/@reboot/d' /etc/crontabs/root 2>/dev/null
 
 #Autodeleting the script
-rm -rf $0
+#rm -rf $0
