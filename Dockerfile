@@ -1,7 +1,7 @@
 FROM linuxserver/transmission
 
 
-COPY autoremove.sh /defaults/
+COPY autoremove.sh /defaults
 
 RUN \
   printf "%s\n%s\n" \
