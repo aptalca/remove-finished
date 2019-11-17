@@ -27,8 +27,5 @@ if [[ $AUTOREMOVE = yes ]]; then
 	fi
 fi
 
-#Delete the line in crontab corresponding to this script
-sed -i '/@reboot/d' /etc/crontabs/root 2>/dev/null
-
 #Autodeleting the script
 rm -rf $0
